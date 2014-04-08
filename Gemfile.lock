@@ -220,8 +220,8 @@ DEPENDENCIES
   cucumber
   cucumber-rails
   database_cleaner (~> 1.2.0)
-  event-calendar
   devise
+  event-calendar
   forem!
   jbuilder
   jquery-rails
