@@ -61,5 +61,8 @@ module SampleApp
 
     # Adding a line for asset pipeline compatibility
     config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
+
+    # Essential for deployment to Heroku
+    config.assets.initialize_on_precompile = false
   end
 end
