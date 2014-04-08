@@ -87,6 +87,7 @@ GEM
       warden (~> 1.2.3)
     diff-lcs (1.2.5)
     erubis (2.7.0)
+    event-calendar (2.3.3)
     execjs (2.0.2)
     ffi (1.9.3)
     friendly_id (4.0.10.1)
@@ -220,6 +221,7 @@ DEPENDENCIES
   cucumber-rails
   database_cleaner (~> 1.2.0)
   devise
+  event-calendar
   forem!
   jbuilder
   jquery-rails
