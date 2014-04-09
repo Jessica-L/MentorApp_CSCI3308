@@ -1,0 +1,10 @@
+<h1> Login: </h>
+<%= form_for(:user) do |f| %>
+
+<p><%= f.label :username %><br />
+<%= f.text_field :username %></p>
+<p><%= f.label :password %><br />
+<%= f.text_field :password %></p>
+
+<%= f.submit "Log in", class: "btn btn-large btn-primary" %>
+<% end %>

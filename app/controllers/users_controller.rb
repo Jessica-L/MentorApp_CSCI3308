@@ -24,6 +24,13 @@ class UsersController < ApplicationController
   @title = user.name
   end
 
+  def login=(login)
+    @login = login
+  end
+
+  def login
+    @login || self.username || self.password
+  end
 #  def edit
 #  end
   

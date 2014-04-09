@@ -5,6 +5,8 @@ SampleApp::Application.routes.draw do
   root  to: 'static_pages#home'
   match '/signup',  to: 'users#new',            via: 'get'
   match '/signup',  to: 'users#create',         via: 'post'
+  match '/signin',  to: 'static_pages#signin',  via: 'get'
+  match '/signin',  to: 'users#login',		via: 'post'
   match '/help',    to: 'static_pages#help',    via: 'get'
   match '/about',   to: 'static_pages#about',   via: 'get'
   match '/contact', to: 'static_pages#contact', via: 'get'

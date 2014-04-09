@@ -10,6 +10,7 @@ end
 
 And /they fill out their information and click new profile$/ do
   visit('/signup')
+  fill_in "Username", with: "junglerodent69"
   fill_in "Email", with: "A_Capybara@amazon.com"
   fill_in "Password", with: "capybara123"
   fill_in "Confirmation", with: "capybara123"
