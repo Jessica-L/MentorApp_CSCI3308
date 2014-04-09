@@ -8,9 +8,10 @@ Background: user of the site does not have a profile
 
 Scenario: create a new profile
   Given the user does not have a profile
-  And they do not have information in the database
-  And they hit new profile and fill out their information
-  Then they should see their profile page
+  And they visit the signup page
+  And they fill out their information and click new profile
+  Then they should see that their profile has been created
+  And they should see their profile in the index
 
 
 
