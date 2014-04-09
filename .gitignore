@@ -4,4 +4,5 @@
 TAGS
 log/
 *.log
-*.sqlite
+*.lock
+*.sqlite3

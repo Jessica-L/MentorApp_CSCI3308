@@ -19,6 +19,7 @@ end
 group :test do
  gem 'selenium-webdriver'
  gem 'capybara'
+ gem 'debugger'
  gem 'cucumber'
  gem 'cucumber-rails'
  gem 'database_cleaner', '~> 1.2.0'
