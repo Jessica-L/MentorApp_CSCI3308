@@ -676,3 +676,381 @@ Connecting to database specified by database.yml
   [1m[35m (0.0ms)[0m  commit transaction
   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
   [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/events/calendar" for 127.0.0.1 at 2014-04-08 17:59:41 -0600
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/events/calendar" for 127.0.0.1 at 2014-04-08 18:06:21 -0600
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/calendar" for 127.0.0.1 at 2014-04-08 18:07:18 -0600
+Processing by CalendarController#index as HTML
+Completed 500 Internal Server Error in 180ms
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/calendar" for 127.0.0.1 at 2014-04-08 18:12:47 -0600
+Processing by CalendarController#index as HTML
+Completed 500 Internal Server Error in 4ms
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/calendar" for 127.0.0.1 at 2014-04-08 18:15:29 -0600
+Processing by CalendarController#index as HTML
+  [1m[35mEvent Load (0.1ms)[0m  SELECT "events".* FROM "events" WHERE (('2014-03-30 06:00:00.000000' <= end_at) AND (start_at< '2014-05-04 06:00:00.000000')) ORDER BY start_at ASC
+  Rendered calendar/index.html.erb within layouts/application (347.8ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 567ms (Views: 561.5ms | ActiveRecord: 0.7ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/calendar" for 127.0.0.1 at 2014-04-08 18:17:31 -0600
+Processing by CalendarController#index as HTML
+  [1m[35mEvent Load (0.1ms)[0m  SELECT "events".* FROM "events" WHERE (('2014-03-30 06:00:00.000000' <= end_at) AND (start_at< '2014-05-04 06:00:00.000000')) ORDER BY start_at ASC
+  Rendered calendar/index.html.erb within layouts/application (66.1ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 81ms (Views: 75.6ms | ActiveRecord: 0.7ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/calendar" for 127.0.0.1 at 2014-04-08 18:18:45 -0600
+Processing by CalendarController#index as HTML
+  [1m[35mEvent Load (0.1ms)[0m  SELECT "events".* FROM "events" WHERE (('2014-03-30 06:00:00.000000' <= end_at) AND (start_at< '2014-05-04 06:00:00.000000')) ORDER BY start_at ASC
+  Rendered calendar/index.html.erb within layouts/application (66.4ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 81ms (Views: 76.0ms | ActiveRecord: 0.7ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/calendar" for 127.0.0.1 at 2014-04-08 18:20:07 -0600
+Processing by CalendarController#index as HTML
+  [1m[35mEvent Load (0.1ms)[0m  SELECT "events".* FROM "events" WHERE (('2014-03-30 06:00:00.000000' <= end_at) AND (start_at< '2014-05-04 06:00:00.000000')) ORDER BY start_at ASC
+  Rendered calendar/index.html.erb within layouts/application (69.6ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 84ms (Views: 79.2ms | ActiveRecord: 0.7ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/calendar" for 127.0.0.1 at 2014-04-08 18:20:45 -0600
+Processing by CalendarController#index as HTML
+  [1m[35mEvent Load (0.1ms)[0m  SELECT "events".* FROM "events" WHERE (('2014-03-30 06:00:00.000000' <= end_at) AND (start_at< '2014-05-04 06:00:00.000000')) ORDER BY start_at ASC
+  Rendered calendar/index.html.erb within layouts/application (66.7ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 81ms (Views: 76.3ms | ActiveRecord: 0.7ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/calendar" for 127.0.0.1 at 2014-04-08 18:22:53 -0600
+Processing by CalendarController#index as HTML
+  [1m[35mEvent Load (0.1ms)[0m  SELECT "events".* FROM "events" WHERE (('2014-03-30 06:00:00.000000' <= end_at) AND (start_at< '2014-05-04 06:00:00.000000')) ORDER BY start_at ASC
+  Rendered calendar/index.html.erb within layouts/application (71.0ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 86ms (Views: 80.6ms | ActiveRecord: 0.7ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/calendar" for 127.0.0.1 at 2014-04-08 18:37:11 -0600
+Processing by CalendarController#index as HTML
+  [1m[35mEvent Load (0.1ms)[0m  SELECT "events".* FROM "events" WHERE (('2014-03-30 06:00:00.000000' <= end_at) AND (start_at< '2014-05-04 06:00:00.000000')) ORDER BY start_at ASC
+  Rendered calendar/index.html.erb within layouts/application (74.8ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 90ms (Views: 84.6ms | ActiveRecord: 0.7ms)
+  [1m[36mEvent Load (0.3ms)[0m  [1mSELECT "events".* FROM "events" [0m
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2014-04-08 19:12:26 -0600
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.9ms)
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+Started GET "/calendar" for 127.0.0.1 at 2014-04-08 19:12:26 -0600
+Processing by CalendarController#index as HTML
+  [1m[35mEvent Load (0.1ms)[0m  SELECT "events".* FROM "events" WHERE (('2014-03-30 06:00:00.000000' <= end_at) AND (start_at< '2014-05-04 06:00:00.000000')) ORDER BY start_at ASC
+  Rendered calendar/index.html.erb within layouts/application (36.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (35.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 117ms (Views: 75.4ms | ActiveRecord: 0.8ms)
+  [1m[36mEvent Load (0.3ms)[0m  [1mSELECT "events".* FROM "events" [0m
+  [1m[35mEvent Load (0.3ms)[0m  SELECT "events".* FROM "events" 
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2014-04-09 12:19:31 -0600
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (45.8ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (1.1ms)
+Completed 200 OK in 391ms (Views: 390.5ms | ActiveRecord: 0.0ms)
+Started GET "/calendar" for 127.0.0.1 at 2014-04-09 12:19:31 -0600
+Processing by CalendarController#index as HTML
+  [1m[35mEvent Load (0.1ms)[0m  SELECT "events".* FROM "events" WHERE (('2014-03-30 06:00:00.000000' <= end_at) AND (start_at< '2014-05-04 06:00:00.000000')) ORDER BY start_at ASC
+  Rendered calendar/index.html.erb within layouts/application (674.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 979ms (Views: 705.3ms | ActiveRecord: 68.5ms)
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2014-04-09 12:31:14 -0600
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.8ms)
+Completed 200 OK in 15ms (Views: 14.1ms | ActiveRecord: 0.0ms)
+Started GET "/calendar" for 127.0.0.1 at 2014-04-09 12:31:14 -0600
+Processing by CalendarController#index as HTML
+  [1m[35mEvent Load (0.1ms)[0m  SELECT "events".* FROM "events" WHERE (('2014-03-30 06:00:00.000000' <= end_at) AND (start_at< '2014-05-04 06:00:00.000000')) ORDER BY start_at ASC
+  Rendered calendar/index.html.erb within layouts/application (37.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 82ms (Views: 41.1ms | ActiveRecord: 0.9ms)
+  [1m[36mEvent Load (0.3ms)[0m  [1mSELECT "events".* FROM "events" [0m
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2014-04-09 16:33:26 -0600
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.7ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 83ms (Views: 82.1ms | ActiveRecord: 0.0ms)
+Started GET "/calendar" for 127.0.0.1 at 2014-04-09 16:33:26 -0600
+Processing by CalendarController#index as HTML
+  [1m[35mEvent Load (0.1ms)[0m  SELECT "events".* FROM "events" WHERE (('2014-03-30 06:00:00.000000' <= end_at) AND (start_at< '2014-05-04 06:00:00.000000')) ORDER BY start_at ASC
+  Rendered calendar/index.html.erb within layouts/application (106.4ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 119ms (Views: 110.5ms | ActiveRecord: 1.2ms)
+  [1m[36mEvent Load (0.3ms)[0m  [1mSELECT "events".* FROM "events" [0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "events" ("created_at", "end_at", "name", "start_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 09 Apr 2014 22:48:56 UTC +00:00], ["end_at", Wed, 09 Apr 2014 22:38:00 UTC +00:00], ["name", "testy"], ["start_at", Wed, 09 Apr 2014 22:37:00 UTC +00:00], ["updated_at", Wed, 09 Apr 2014 22:48:56 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mEvent Load (0.3ms)[0m  [1mSELECT "events".* FROM "events" [0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "events" ("created_at", "end_at", "name", "start_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 09 Apr 2014 22:53:25 UTC +00:00], ["end_at", Wed, 09 Apr 2014 22:38:00 UTC +00:00], ["name", "testy"], ["start_at", Wed, 09 Apr 2014 22:37:00 UTC +00:00], ["updated_at", Wed, 09 Apr 2014 22:53:25 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mEvent Load (0.3ms)[0m  [1mSELECT "events".* FROM "events" [0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (3.0ms)[0m  [1mINSERT INTO "events" ("created_at", "end_at", "name", "start_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 09 Apr 2014 23:06:17 UTC +00:00], ["end_at", Wed, 09 Apr 2014 22:38:00 UTC +00:00], ["name", "test1"], ["start_at", Wed, 09 Apr 2014 22:37:00 UTC +00:00], ["updated_at", Wed, 09 Apr 2014 23:06:17 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "events" ("created_at", "end_at", "name", "start_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 09 Apr 2014 23:06:17 UTC +00:00], ["end_at", Tue, 01 Apr 2014 22:38:00 UTC +00:00], ["name", "test2"], ["start_at", Tue, 01 Apr 2014 22:37:00 UTC +00:00], ["updated_at", Wed, 09 Apr 2014 23:06:17 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "events" ("created_at", "end_at", "name", "start_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 09 Apr 2014 23:06:17 UTC +00:00], ["end_at", Sun, 20 Apr 2014 22:38:00 UTC +00:00], ["name", "test3"], ["start_at", Sun, 20 Apr 2014 22:37:00 UTC +00:00], ["updated_at", Wed, 09 Apr 2014 23:06:17 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "events" ("created_at", "end_at", "name", "start_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 09 Apr 2014 23:06:17 UTC +00:00], ["end_at", Sun, 09 Mar 2014 22:38:00 UTC +00:00], ["name", "test4"], ["start_at", Sun, 09 Mar 2014 22:37:00 UTC +00:00], ["updated_at", Wed, 09 Apr 2014 23:06:17 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "events" ("created_at", "end_at", "name", "start_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 09 Apr 2014 23:06:17 UTC +00:00], ["end_at", Fri, 09 May 2014 22:38:00 UTC +00:00], ["name", "test5"], ["start_at", Fri, 09 May 2014 22:37:00 UTC +00:00], ["updated_at", Wed, 09 Apr 2014 23:06:17 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Started GET "/calendar" for 127.0.0.1 at 2014-04-09 17:06:17 -0600
+Processing by CalendarController#index as HTML
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT "events".* FROM "events" WHERE (('2014-03-30 06:00:00.000000' <= end_at) AND (start_at< '2014-05-04 06:00:00.000000')) ORDER BY start_at ASC[0m
+  Rendered calendar/index.html.erb within layouts/application (106.7ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.8ms)
+Completed 200 OK in 125ms (Views: 121.5ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (3.1ms)[0m  [1mINSERT INTO "events" ("created_at", "end_at", "name", "start_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 09 Apr 2014 23:06:58 UTC +00:00], ["end_at", Wed, 09 Apr 2014 22:38:00 UTC +00:00], ["name", "test1"], ["start_at", Wed, 09 Apr 2014 22:37:00 UTC +00:00], ["updated_at", Wed, 09 Apr 2014 23:06:58 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "events" ("created_at", "end_at", "name", "start_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 09 Apr 2014 23:06:58 UTC +00:00], ["end_at", Tue, 01 Apr 2014 22:38:00 UTC +00:00], ["name", "test2"], ["start_at", Tue, 01 Apr 2014 22:37:00 UTC +00:00], ["updated_at", Wed, 09 Apr 2014 23:06:58 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "events" ("created_at", "end_at", "name", "start_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 09 Apr 2014 23:06:58 UTC +00:00], ["end_at", Sun, 20 Apr 2014 22:38:00 UTC +00:00], ["name", "test3"], ["start_at", Sun, 20 Apr 2014 22:37:00 UTC +00:00], ["updated_at", Wed, 09 Apr 2014 23:06:58 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "events" ("created_at", "end_at", "name", "start_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 09 Apr 2014 23:06:58 UTC +00:00], ["end_at", Sun, 09 Mar 2014 22:38:00 UTC +00:00], ["name", "test4"], ["start_at", Sun, 09 Mar 2014 22:37:00 UTC +00:00], ["updated_at", Wed, 09 Apr 2014 23:06:58 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "events" ("created_at", "end_at", "name", "start_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 09 Apr 2014 23:06:58 UTC +00:00], ["end_at", Fri, 09 May 2014 22:38:00 UTC +00:00], ["name", "test5"], ["start_at", Fri, 09 May 2014 22:37:00 UTC +00:00], ["updated_at", Wed, 09 Apr 2014 23:06:58 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Started GET "/calendar" for 127.0.0.1 at 2014-04-09 17:06:58 -0600
+Processing by CalendarController#index as HTML
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT "events".* FROM "events" WHERE (('2014-03-30 06:00:00.000000' <= end_at) AND (start_at< '2014-05-04 06:00:00.000000')) ORDER BY start_at ASC[0m
+  Rendered calendar/index.html.erb within layouts/application (115.2ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.9ms)
+Completed 200 OK in 134ms (Views: 130.2ms | ActiveRecord: 0.2ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (3.4ms)[0m  [1mINSERT INTO "events" ("created_at", "end_at", "name", "start_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 09 Apr 2014 23:23:00 UTC +00:00], ["end_at", Wed, 09 Apr 2014 22:38:00 UTC +00:00], ["name", "test1"], ["start_at", Wed, 09 Apr 2014 22:37:00 UTC +00:00], ["updated_at", Wed, 09 Apr 2014 23:23:00 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "events" ("created_at", "end_at", "name", "start_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 09 Apr 2014 23:23:00 UTC +00:00], ["end_at", Tue, 01 Apr 2014 22:38:00 UTC +00:00], ["name", "test2"], ["start_at", Tue, 01 Apr 2014 22:37:00 UTC +00:00], ["updated_at", Wed, 09 Apr 2014 23:23:00 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "events" ("created_at", "end_at", "name", "start_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 09 Apr 2014 23:23:00 UTC +00:00], ["end_at", Sun, 20 Apr 2014 22:38:00 UTC +00:00], ["name", "test3"], ["start_at", Sun, 20 Apr 2014 22:37:00 UTC +00:00], ["updated_at", Wed, 09 Apr 2014 23:23:00 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "events" ("created_at", "end_at", "name", "start_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 09 Apr 2014 23:23:00 UTC +00:00], ["end_at", Sun, 09 Mar 2014 22:38:00 UTC +00:00], ["name", "test4"], ["start_at", Sun, 09 Mar 2014 22:37:00 UTC +00:00], ["updated_at", Wed, 09 Apr 2014 23:23:00 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "events" ("created_at", "end_at", "name", "start_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 09 Apr 2014 23:23:00 UTC +00:00], ["end_at", Fri, 09 May 2014 22:38:00 UTC +00:00], ["name", "test5"], ["start_at", Fri, 09 May 2014 22:37:00 UTC +00:00], ["updated_at", Wed, 09 Apr 2014 23:23:00 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Started GET "/calendar" for 127.0.0.1 at 2014-04-09 17:23:01 -0600
+Processing by CalendarController#index as HTML
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT "events".* FROM "events" WHERE (('2014-03-30 06:00:00.000000' <= end_at) AND (start_at< '2014-05-04 06:00:00.000000')) ORDER BY start_at ASC[0m
+  Rendered calendar/index.html.erb within layouts/application (107.6ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.8ms)
+Completed 200 OK in 128ms (Views: 122.6ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
