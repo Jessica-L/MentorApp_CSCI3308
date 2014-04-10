@@ -6,7 +6,9 @@ ruby '2.0.0'
 #gem 'rails', '4.0.4'
 gem 'bootstrap-sass', '2.3.2.0'
 gem 'sprockets', '2.2.1'
+#gem 'sprockets'
 gem 'forem', :github => "radar/forem", :branch => "rails3"
+#gem 'forem'
 gem 'event-calendar', :require => 'event_calendar'
 gem 'devise'
 

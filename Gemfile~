@@ -1,12 +1,16 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.13'
+#gem 'rails', '3.2.13'
 ruby '2.0.0'
 
-#gem 'rails', '4.0.4'
+gem 'rails', '4.0.4'
 gem 'bootstrap-sass', '2.3.2.0'
-gem 'sprockets', '2.2.1'
-gem 'forem', :github => "radar/forem", :branch => "rails3"
+#gem 'sprockets', '2.2.1'
+gem 'sprockets'
+#gem 'forem', :github => "radar/forem", :branch => "rails3"
+gem 'forem'
+gem 'event-calendar', :require => 'event_calendar'
+gem 'devise'
 
 group :development, :test do
  gem 'sqlite3'
@@ -17,6 +21,7 @@ end
 group :test do
  gem 'selenium-webdriver'
  gem 'capybara'
+ gem 'debugger'
  gem 'cucumber'
  gem 'cucumber-rails'
  gem 'database_cleaner', '~> 1.2.0'

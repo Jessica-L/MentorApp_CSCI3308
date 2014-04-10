@@ -2,14 +2,20 @@ SampleApp::Application.routes.draw do
 
   resources :events
 
+  devise_for :users 
+
+#  devise_scope :users do
+#    get "sign_in", to: "devise/sessions#new"
+#  end
+
+
+
 
   match '/calendar(/:year(/:month))' => 'calendar#index', :as => :calendar, :constraints => {:year => /\d{4}/, :month => /\d{1,2}/}
 
   root  to: 'static_pages#home'
-  match '/signup',  to: 'users#new',            via: 'get'
-  match '/signup',  to: 'users#create',         via: 'post'
-  match '/signin',  to: 'static_pages#signin',  via: 'get'
-  match '/signin',  to: 'users#login',		via: 'post'
+  match '/signout', to: 'users#logout',         via: 'get'
+  match '/users',   to: 'static_pages#home',    via: 'get'
   match '/help',    to: 'static_pages#help',    via: 'get'
   match '/about',   to: 'static_pages#about',   via: 'get'
   match '/contact', to: 'static_pages#contact', via: 'get'

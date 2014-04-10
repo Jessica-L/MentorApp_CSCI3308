@@ -3,6 +3,7 @@ class UsersController < ApplicationController
 
 
   def index
+    debugger
     @users = User.all
   end
 
@@ -24,19 +25,9 @@ class UsersController < ApplicationController
   @title = user.name
   end
 
-  def login=(login)
-    @login = login
-  end
 
-  def login
-    @login || self.username || self.password
-  end
-#  def edit
-#  end
-  
-#  def update
-#  end
-#  def destroy
-#  end
-  
+
+  def logout
+    env['warden'].logout
+  end  
 end
